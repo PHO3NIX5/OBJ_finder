@@ -5,27 +5,36 @@ body{
 .header{
     width: 100%;
     margin: 0px;
-    font-size: large;
+    font-size: 30px;
+    background-color: aqua;
 }
 .input_class{
     margin: 5px;
     border-radius: 5px;
     width: 20%;
-    color: rgb(0, 255, 0);
+    color: rgb(0, 0, 0);
     background-color: greenyellow;
     border: 4px dashed grey;
 }
 .object_name_label{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 20px;
+    background-color: aqua;
+    border-radius:10px ;
+    border:1px dotted black;
+    width: 20%;
 }
 canvas{
     border-radius: 10px;
-    background-color: rgb(0, 255, 4);
+    background-color: rgb(0, 255, 0);
     box-shadow: 7px 7px 7px white;
+    margin-top: 150px;
 }
 p{
     color: black;
     margin-bottom: 0px;
     font-size: small;
+}
+#inline{
+    display: inline;
 }
